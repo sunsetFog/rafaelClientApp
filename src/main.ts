@@ -9,8 +9,6 @@ import '@root/global.css';
 import '@root/global.less';
 import '@root/global.scss';
 
-// rem
-import '@sky/utils/rem.js';
 
 // vant样式
 import 'vant/lib/index.css';

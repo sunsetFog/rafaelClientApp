@@ -5,6 +5,7 @@
 
 <script>
 import PopupUnit from '@/components/popupUnit/index';
+import { mapMutations, mapGetters, mapActions } from 'vuex';
 export default {
     name: "App",
     components: { PopupUnit },
@@ -13,11 +14,18 @@ export default {
 
         };
     },
+    created() {
+        this.$store.commit('setScreenAndRem');
+        window.addEventListener('resize', this.setScreenAndRem);
+    },
+    destroyed() {
+        window.removeEventListener('resize', this.setScreenAndRem);
+    },
     watch: {
 
     },
     methods: {
-
+        ...mapMutations(['setScreenAndRem']),
     }
 };
 </script>

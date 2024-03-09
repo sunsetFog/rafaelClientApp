@@ -3,6 +3,7 @@ import { createStore } from 'vuex'
 import login from './modular/login';
 import pool from './modular/pool';
 import player from './modular/player';
+import screenAndRem from './modular/screenAndRem';
 
 export default createStore({
   state: {
@@ -16,6 +17,7 @@ export default createStore({
   modules: {
     login,
     pool,
-    player
+    player,
+    screenAndRem
   }
 })
