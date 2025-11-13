@@ -29,7 +29,7 @@ import means from '@/public/index.js';
 rainbow.config.globalProperties.$means = means;
 
 // axios
-import apiHttp from '@sky/rafaelDesign/axios/request2/http.js';
+import apiHttp from '@/@energy/rafaelDesign/axios/request2/http.js';
 rainbow.config.globalProperties.$apihttp = apiHttp;
 
 import VueCookies from 'vue-cookies';

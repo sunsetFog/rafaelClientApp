@@ -8,10 +8,10 @@
             <span>全品类通用券</span>
             <span>适用平台：全平台</span>
             <span>有效期至：2018-08-01</span>
-            <img v-if="tab_active == 0" class="u286" src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
-            <img v-if="tab_active == 1" class="u3167" src="@sky/rafaelDesign/static/mall/coupon/u3167.png"/>
-            <img v-if="tab_active == 2" class="u3167" src="@sky/rafaelDesign/static/mall/coupon/u3178.png"/>
-            <img v-if="tab_active == 0" class="u3157" src="@sky/rafaelDesign/static/mall/coupon/u3157.png"/>
+            <img v-if="tab_active == 0" class="u286" src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
+            <img v-if="tab_active == 1" class="u3167" src="@/@energy/rafaelDesign/static/mall/coupon/u3167.png"/>
+            <img v-if="tab_active == 2" class="u3167" src="@/@energy/rafaelDesign/static/mall/coupon/u3178.png"/>
+            <img v-if="tab_active == 0" class="u3157" src="@/@energy/rafaelDesign/static/mall/coupon/u3157.png"/>
             <label v-if="tab_active == 0">新到</label>
         </div>
     </section>
@@ -54,7 +54,7 @@ export default {
         .comic {
             width: 145px;
             height: 100%;
-            background: url("~@sky/rafaelDesign/static/mall/coupon/u3148.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/coupon/u3148.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             position: absolute;
@@ -77,7 +77,7 @@ export default {
             }
         }
         .magic {
-            background: url("~@sky/rafaelDesign/static/mall/coupon/u3161.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/coupon/u3161.png");
         }
         span {
             position: absolute;

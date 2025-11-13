@@ -4,13 +4,13 @@
         <div class="cartoon" v-for="(item,index) in venus_list">
             <div class="title-box">
                 <div>
-                    <img src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                    <img src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                 </div>
                 <span>{{item.title}}</span>
             </div>
             <div class="mercury">
                 <div class="cosplay">
-                    <img src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                    <img src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                 </div>
                 <button>热门</button>
                 <span class="summer">五个春天的生活新提案</span>
@@ -18,10 +18,10 @@
                 <span class="rainbow">￥99元起</span>
             </div>
             <div class="jupiter">
-                <img class="u193" src="@sky/rafaelDesign/static/mall/special/u193.png"/>
-                <img class="u194" src="@sky/rafaelDesign/static/mall/special/u194.png"/>
-                <img class="u195" src="@sky/rafaelDesign/static/mall/special/u195.png"/>
-                <img class="u196" src="@sky/rafaelDesign/static/mall/special/u196.png"/>
+                <img class="u193" src="@/@energy/rafaelDesign/static/mall/special/u193.png"/>
+                <img class="u194" src="@/@energy/rafaelDesign/static/mall/special/u194.png"/>
+                <img class="u195" src="@/@energy/rafaelDesign/static/mall/special/u195.png"/>
+                <img class="u196" src="@/@energy/rafaelDesign/static/mall/special/u196.png"/>
                 <span class="box1">100</span>
                 <span class="box2">10000</span>
                 <span class="box3">200</span>

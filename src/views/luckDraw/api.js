@@ -1,4 +1,4 @@
-import request from '@sky/rafaelDesign/axios/request2/http.js'
+import request from '@/@energy/rafaelDesign/axios/request2/http.js'
 
 
 // 个人中秋活动抽奖信息

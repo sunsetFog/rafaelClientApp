@@ -1,4 +1,4 @@
-import apiHttp from '@sky/rafaelDesign/axios/request2/http.js';
+import apiHttp from '@/@energy/rafaelDesign/axios/request2/http.js';
 import lodash from 'lodash'
 import finalRouter from '@/router/modules/finalRouter.js'
 
@@ -8,7 +8,7 @@ function recursion(arr) {
         let item = arr[i];
         item.text = item.title;
         item.key = lodash.uniqueId('menu-');
-        item.icon = require('@sky/rafaelDesign/static/picture/shouyi.png');
+        item.icon = require('@/@energy/rafaelDesign/static/picture/shouyi.png');
         recursion(item.children);
     }
 }

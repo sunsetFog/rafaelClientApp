@@ -5,7 +5,7 @@
         </headDesign>
 
         <div class="cartoon">
-            <img src="@sky/rafaelDesign/static/mall/personalCenter/u2943.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/personalCenter/u2943.png"/>
             <span>Windir</span>
         </div>
         <div class="rainbow-apt" style="margin-top: 1.25rem;border-top: 1px solid #D5D5D5;">
@@ -33,14 +33,14 @@
             <label>生日</label>
             <div class="atmosphere">
                 <div class="jupiter">选择生日</div>
-                <img class="u286" src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
+                <img class="u286" src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
             </div>
         </div>
         <div class="rainbow-apt">
             <label>城市</label>
             <div class="atmosphere">
                 <div class="jupiter">选择城市</div>
-                <img class="u286" src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
+                <img class="u286" src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
             </div>
         </div>
         <div class="rainbow-apt">

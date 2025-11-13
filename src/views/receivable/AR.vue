@@ -143,7 +143,7 @@ import echartLineBar from './echartLineBar.js'
 import echartBarStack from './echartBarStack.js'
 import echartBar from './echartBar.js'
 import echartPie from './echartPie.js'
-import CloudEchart from '@sky/rafaelDesign/web/components/echarts/cloudEchart.vue'
+import CloudEchart from '@/@energy/rafaelDesign/web/components/echarts/cloudEchart.vue'
 export default {
   name: 'receivable',
   components: { headerBar, CloudEchart },

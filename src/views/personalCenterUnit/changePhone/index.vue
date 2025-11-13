@@ -78,7 +78,7 @@ export default {
             font-size: 13px;
             padding: 13px 0 0 60px;
             box-sizing: border-box;
-            background: url("~@sky/rafaelDesign/static/mall/personalCenter/u3035.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/personalCenter/u3035.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             position: absolute;
@@ -88,7 +88,7 @@ export default {
         }
         .jupiter {
             color: @color_hong;
-            background: url("~@sky/rafaelDesign/static/mall/personalCenter/u3035_selected.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/personalCenter/u3035_selected.png");
         }
         .honey {
             width: 200px;
@@ -97,7 +97,7 @@ export default {
             font-size: 13px;
             padding: 13px 60px 0 0;
             box-sizing: border-box;
-            background: url("~@sky/rafaelDesign/static/mall/personalCenter/u3034.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/personalCenter/u3034.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             position: absolute;
@@ -106,7 +106,7 @@ export default {
         }
         .saturn {
             color: @color_hong;
-            background: url("~@sky/rafaelDesign/static/mall/personalCenter/u3034_selected.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/personalCenter/u3034_selected.png");
         }
     }
     .rainbow-apt {

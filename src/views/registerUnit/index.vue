@@ -2,25 +2,25 @@
     <section id="registerUnit">
         <headDesign title="注册账号"></headDesign>
         <div class="cartoon-apt">
-            <img class="u2808" src="@sky/rafaelDesign/static/mall/login/u2808.png"/>
+            <img class="u2808" src="@/@energy/rafaelDesign/static/mall/login/u2808.png"/>
         </div>
         <div class="mars-apt">
-            <img class="u2839" src="@sky/rafaelDesign/static/mall/login/u2839.png"/>
+            <img class="u2839" src="@/@energy/rafaelDesign/static/mall/login/u2839.png"/>
             <input class="jupiter-apt" type="text" v-model="withForm.username" placeholder="输入手机号码"/>
         </div>
         <div class="saturn-apt">
-            <img class="u2882" src="@sky/rafaelDesign/static/mall/register/u2882.png"/>
+            <img class="u2882" src="@/@energy/rafaelDesign/static/mall/register/u2882.png"/>
             <input class="venus-apt" type="text" v-model="withForm.password" placeholder="输入短信验证码"/>
             <span class="yanzhengma">发送验证码</span>
         </div>
         <div class="saturn-apt">
-            <img class="u2882" src="@sky/rafaelDesign/static/mall/login/u2843.png"/>
+            <img class="u2882" src="@/@energy/rafaelDesign/static/mall/login/u2843.png"/>
             <input class="venus-apt" type="text" v-model="withForm.password" placeholder="设置登录密码"/>
             <van-switch class="mercury-apt" v-model="checked" size="20" />
         </div>
         <div class="undercurrent-apt">
-            <img @click="readWay(true)" v-if="!read_active" src="@sky/rafaelDesign/static/mall/register/u2600.png"/>
-            <img @click="readWay(false)" v-else src="@sky/rafaelDesign/static/mall/register/u2601.png"/>
+            <img @click="readWay(true)" v-if="!read_active" src="@/@energy/rafaelDesign/static/mall/register/u2600.png"/>
+            <img @click="readWay(false)" v-else src="@/@energy/rafaelDesign/static/mall/register/u2601.png"/>
             <span>已阅读并同意《用户服务协议》</span>
         </div>
         <button class="cosplay-apt" @click="submitWay">确定</button>

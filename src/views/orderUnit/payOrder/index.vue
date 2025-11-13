@@ -3,7 +3,7 @@
         <headDesign title="支付订单"></headDesign>
         <div class="mercury">
             <div class="venus">
-                <img src="@sky/rafaelDesign/static/mall/order/u550.png"/>
+                <img src="@/@energy/rafaelDesign/static/mall/order/u550.png"/>
             </div>
             <p>订单提交成功</p>
             <p>请在00小时59分59秒内完成支付</p>
@@ -13,7 +13,7 @@
         <div class="rainbow-apt" v-for="(item,index) in mercury_list" :style="{ marginTop: item.margin, borderTop: item.borderTop }" @click="pathWay(item,index)">
             <img :src="item.icon"/>
             <span class="venus">{{item.title}}</span>
-            <img src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
         </div>
     </section>
 </template>
@@ -35,7 +35,7 @@ export default {
     created() {
         for (let index = 0; index < this.mercury_list.length; index++) {
             let item = this.mercury_list[index];
-            item.icon = require('@sky/rafaelDesign/static/mall/order/' + item.icon + '.png');
+            item.icon = require('@/@energy/rafaelDesign/static/mall/order/' + item.icon + '.png');
         }
     },
     methods: {

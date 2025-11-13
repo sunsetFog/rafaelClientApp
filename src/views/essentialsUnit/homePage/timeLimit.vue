@@ -19,7 +19,7 @@
                 <li v-for="(item,index) in venus_list">
                     <div class="jia-ge">￥{{item.price}}</div>
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                     <span class="rainbow">秒杀价￥99</span>
                     <span class="summer">银色星芒刺绣网纱底裤</span>

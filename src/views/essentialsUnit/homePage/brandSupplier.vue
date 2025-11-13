@@ -8,7 +8,7 @@
                     <span>{{item.price}}元起</span>
                     <div class="shang-xin">上新</div>
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                 </li>
             </ul>
@@ -73,7 +73,7 @@ export default {
                     line-height: 26px;
                     color: #fff;
                     font-size: 13px;
-                    background: url("~@sky/rafaelDesign/static/mall/homePage/u89.png");
+                    background: url("~@/@energy/rafaelDesign/static/mall/homePage/u89.png");
                     background-size: 100% 100%;
                     background-repeat: no-repeat;
                     position: absolute;

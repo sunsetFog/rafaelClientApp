@@ -3,7 +3,7 @@
         <headDesign title="申请退货"></headDesign>
         <div class="atmosphere">
             请选择退货原因
-            <img src="@sky/rafaelDesign/static/mall/afterSales/u2724.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/afterSales/u2724.png"/>
         </div>
         <div class="cartoon">
             问题描述
@@ -37,7 +37,7 @@
         </div>
         <button class="rainbow" @click="submitWay">提交</button>
         <div class="summer">
-            <img src="@sky/rafaelDesign/static/mall/afterSales/u3350.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/afterSales/u3350.png"/>
             <span>温馨提示</span>
             <ul>
                 <li>• 商品寄回地址将在审核通过后以短信形式告知，或在申请记录中查询。</li>

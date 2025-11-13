@@ -1,11 +1,11 @@
 <template>
     <section id="integralUnit">
         <headDesign title="我的积分">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/memberCenter/u2518.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2518.png"/>
         </headDesign>
         <div class="cartoon">
             <div>
-                <img src="@sky/rafaelDesign/static/mall/integral/u3069.png"/>
+                <img src="@/@energy/rafaelDesign/static/mall/integral/u3069.png"/>
             </div>
             <p>当前积分</p>
             <p>1000</p>

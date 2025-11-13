@@ -47,7 +47,7 @@ export default {
     created() {
         for (let index = 0; index < this.mercury_list.length; index++) {
             let item = this.mercury_list[index];
-            item.icon = require('@sky/rafaelDesign/static/mall/classify/' + item.icon + '.png');
+            item.icon = require('@/@energy/rafaelDesign/static/mall/classify/' + item.icon + '.png');
         }
     },
     methods: {

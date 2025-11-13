@@ -9,7 +9,7 @@
                 <li v-for="(item,index) in venus_list">
                     <van-checkbox v-model="item.active" class="mercury" @click="checkWay"></van-checkbox>
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                     <span class="cartoon">银色星芒刺绣网纱底裤</span>
                     <span class="honey">肤色/M</span>

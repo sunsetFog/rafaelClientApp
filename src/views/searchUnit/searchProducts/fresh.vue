@@ -5,7 +5,7 @@
                 <li v-for="(item,index) in venus_list">
                     <div class="shang-xin">上新</div>
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                     <span class="summer">银色星芒刺绣网纱底裤</span>
                     <span class="honey">薄如蝉翼，丝滑如肌肤</span>
@@ -52,7 +52,7 @@ export default {
                     line-height: 26px;
                     color: #fff;
                     font-size: 13px;
-                    background: url("~@sky/rafaelDesign/static/mall/homePage/u89.png");
+                    background: url("~@/@energy/rafaelDesign/static/mall/homePage/u89.png");
                     background-size: 100% 100%;
                     background-repeat: no-repeat;
                     position: absolute;

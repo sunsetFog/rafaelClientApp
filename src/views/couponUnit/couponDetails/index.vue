@@ -1,10 +1,10 @@
 <template>
     <section id="couponDetails">
         <headDesign title="优惠券详情">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/memberCenter/u2518.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2518.png"/>
         </headDesign>
         <div class="scenery">
-            <img class="u3157" src="@sky/rafaelDesign/static/mall/coupon/u3157.png"/>
+            <img class="u3157" src="@/@energy/rafaelDesign/static/mall/coupon/u3157.png"/>
             <label>新到</label>
 
             <p>全品类通用券</p>
@@ -44,7 +44,7 @@ export default {
     .scenery {
         width: 325px;
         height: 580px;
-        background: url("~@sky/rafaelDesign/static/mall/coupon/u3207.png");
+        background: url("~@/@energy/rafaelDesign/static/mall/coupon/u3207.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         position: relative;

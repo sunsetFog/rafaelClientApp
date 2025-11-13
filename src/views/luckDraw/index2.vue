@@ -168,7 +168,7 @@ export default {
                 // shadow: '0 5 1 #ebf1f4'
             },
             activeStyle: {
-                // background: 'url(@sky/rafaelDesign/static/reportForms/gongge/choujiang_button_on.png)',
+                // background: 'url(@/@energy/rafaelDesign/static/reportForms/gongge/choujiang_button_on.png)',
                 background: 'linear-gradient(270deg, #FB0F0F, #FA9E9E)',
                 fontColor: '#E61F49',
                 fontSize: this.conversion(1.3) + 'px',

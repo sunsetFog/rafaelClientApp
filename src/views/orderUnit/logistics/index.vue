@@ -3,7 +3,7 @@
         <headDesign title="订单跟踪"></headDesign>
         <div class="scenery">
             <div class="shang-pin">
-                <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
             </div>
             <button>2件商品</button>
             <span>配送企业：顺丰快递</span>

@@ -6,7 +6,7 @@
             <span>{{item.title}}</span>
             <span>{{item.subtitle}}</span>
             <div v-if="item.num">{{item.num}}</div>
-            <img class="u286" src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
+            <img class="u286" src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
         </div>
     </section>
 </template>
@@ -27,7 +27,7 @@ export default {
     created() {
         for (let index = 0; index < this.comic_list.length; index++) {
             let item = this.comic_list[index];
-            item.icon = require("@sky/rafaelDesign/static/mall/messageCenter/" + item.icon + ".png");
+            item.icon = require("@/@energy/rafaelDesign/static/mall/messageCenter/" + item.icon + ".png");
         }
     }
 }

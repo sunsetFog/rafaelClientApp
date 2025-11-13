@@ -12,7 +12,7 @@
             <ul>
                 <li v-for="(item,index) in venus_list">
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                     <span class="summer">银色星芒刺绣网纱底裤</span>
                     <span class="honey">肤色/M</span>
@@ -22,14 +22,14 @@
                         <button class="fabulous" @click="applyWay()">申请退货</button>
                     </div>
                     <div class="scenery" v-if="index == 1 && tab_active == 0">
-                        <img class="u3350" src="@sky/rafaelDesign/static/mall/afterSales/u3350.png"/>
+                        <img class="u3350" src="@/@energy/rafaelDesign/static/mall/afterSales/u3350.png"/>
                         <span class="magic">该商品已申请过售后服务</span>
                         <button class="fabulous comic">申请退货</button>
                     </div>
                     <div class="scenery" v-if="tab_active == 1">
-                        <img class="u3350" src="@sky/rafaelDesign/static/mall/afterSales/u3390.png"/>
+                        <img class="u3350" src="@/@energy/rafaelDesign/static/mall/afterSales/u3390.png"/>
                         <span class="magic">已完成</span>
-                        <img class="u2724" src="@sky/rafaelDesign/static/mall/afterSales/u2724.png" @click="detailsWay"/>
+                        <img class="u2724" src="@/@energy/rafaelDesign/static/mall/afterSales/u2724.png" @click="detailsWay"/>
                     </div>
                 </li>
             </ul>

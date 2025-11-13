@@ -4,7 +4,7 @@
     <div :class="{'atmosphere': true, 'honey': index == 0}" v-for="(item,index) in cartoon_list" @click="comic(item)">
         <label>{{item.title}}</label>
         <span v-if="index == 0">10.00MB</span>
-        <img class="u2637" src="@sky/rafaelDesign/static/mall/order/u2637.png"/>
+        <img class="u2637" src="@/@energy/rafaelDesign/static/mall/order/u2637.png"/>
     </div>
     <div class="fabulous">
         <button @click="signOut">退出登录</button>

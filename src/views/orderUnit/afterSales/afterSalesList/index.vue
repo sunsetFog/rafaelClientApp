@@ -1,7 +1,7 @@
 <template>
     <section id="afterSalesList">
         <headDesign title="退换售后">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/afterSales/u3306.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/afterSales/u3306.png"/>
         </headDesign>
         <van-tabs v-model:active="tab_active">
             <van-tab title="售后申请">

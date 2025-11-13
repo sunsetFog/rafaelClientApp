@@ -1,7 +1,7 @@
 <template>
     <section id="applyReturnDetails">
         <headDesign title="记录详情">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/afterSales/u3306.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/afterSales/u3306.png"/>
         </headDesign>
         <div class="atmosphere">
             <span>服务单号：198014266</span>
@@ -9,7 +9,7 @@
         </div>
         <div class="cartoon">
             <span>审核进度：您的服务单财务已退款，请您注意查收</span>
-            <img class="u2724" src="@sky/rafaelDesign/static/mall/afterSales/u2724.png"/>
+            <img class="u2724" src="@/@energy/rafaelDesign/static/mall/afterSales/u2724.png"/>
         </div>
         <van-steps direction="vertical" :active="step_status" class="mercury">
             <van-step>

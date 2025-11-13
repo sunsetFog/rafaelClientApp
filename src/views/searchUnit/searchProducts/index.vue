@@ -2,7 +2,7 @@
     <section id="searchProducts">
         <div class="search-box">
             <div class="magic">
-                <img @click="backWay" class="u333" src="@sky/rafaelDesign/static/mall/register/u333.png"/>
+                <img @click="backWay" class="u333" src="@/@energy/rafaelDesign/static/mall/register/u333.png"/>
             </div>
             <van-search class="comic" v-model="search_value" show-action placeholder="输入商品关键词" @search="onSearch" @cancel="onCancel"/>
         </div>
@@ -15,8 +15,8 @@
             </div>
             <div class="shai-xuan">
                 <div>
-                    <img v-if="layout_active == 'yi'" src="@sky/rafaelDesign/static/mall/search/yi.png" @click="layoutWay('er')"/>
-                    <img v-if="layout_active == 'er'" src="@sky/rafaelDesign/static/mall/search/er.png" @click="layoutWay('yi')"/>
+                    <img v-if="layout_active == 'yi'" src="@/@energy/rafaelDesign/static/mall/search/yi.png" @click="layoutWay('er')"/>
+                    <img v-if="layout_active == 'er'" src="@/@energy/rafaelDesign/static/mall/search/er.png" @click="layoutWay('yi')"/>
                 </div>
                 <div @click="screenWay">
                     <span>筛选</span>

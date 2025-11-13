@@ -4,9 +4,9 @@
             <button class="summer" @click="okWay">完成</button>
         </headDesign>
         <div class="rainbow">
-            <img class="u576" src="@sky/rafaelDesign/static/mall/order/u576.png"/>
-            <img class="u580" src="@sky/rafaelDesign/static/mall/order/u580.png"/>
-            <img class="u587" src="@sky/rafaelDesign/static/mall/order/u587.png"/>
+            <img class="u576" src="@/@energy/rafaelDesign/static/mall/order/u576.png"/>
+            <img class="u580" src="@/@energy/rafaelDesign/static/mall/order/u580.png"/>
+            <img class="u587" src="@/@energy/rafaelDesign/static/mall/order/u587.png"/>
             <span>订单支付成功</span>
             <span>支付方式</span>
             <span>微信支付</span>

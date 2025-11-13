@@ -4,7 +4,7 @@
             <ul>
                 <li v-for="(item,index) in venus_list" @click="appleWay">
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                     <span class="summer" v-if="tab_active == 0">银色星芒刺绣网纱底裤</span>
                     <span class="honey" v-if="tab_active == 0">薄如蝉翼，丝滑如肌肤</span>
@@ -14,17 +14,17 @@
                     <span class="honey" v-if="tab_active == 2">Windir发起该会话</span>
                     <span class="rainbow" v-if="tab_active == 0">￥99</span>
                     <div class="scenery" v-if="tab_active == 1">
-                        <img class="u3268" src="@sky/rafaelDesign/static/mall/collection/u3268.png"/>
-                        <img class="u3271" src="@sky/rafaelDesign/static/mall/collection/u3271.png"/>
-                        <img class="u3274" src="@sky/rafaelDesign/static/mall/collection/u3274.png"/>
+                        <img class="u3268" src="@/@energy/rafaelDesign/static/mall/collection/u3268.png"/>
+                        <img class="u3271" src="@/@energy/rafaelDesign/static/mall/collection/u3271.png"/>
+                        <img class="u3274" src="@/@energy/rafaelDesign/static/mall/collection/u3274.png"/>
                         <span>1000</span>
                         <span>10000</span>
                         <span>10</span>
                     </div>
                     <div class="scenery" v-if="tab_active == 2">
-                        <img class="u3268" src="@sky/rafaelDesign/static/mall/collection/u3271.png"/>
-                        <img class="u3271" src="@sky/rafaelDesign/static/mall/collection/u3268.png"/>
-                        <img class="u3274" src="@sky/rafaelDesign/static/mall/collection/u3291.png"/>
+                        <img class="u3268" src="@/@energy/rafaelDesign/static/mall/collection/u3271.png"/>
+                        <img class="u3271" src="@/@energy/rafaelDesign/static/mall/collection/u3268.png"/>
+                        <img class="u3274" src="@/@energy/rafaelDesign/static/mall/collection/u3291.png"/>
                         <span>10000</span>
                         <span>1000</span>
                         <span>10</span>

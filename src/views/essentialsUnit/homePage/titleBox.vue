@@ -2,7 +2,7 @@
     <div class="titleBox">
         <span>{{with_name}}</span>
         <span>更多推荐</span>
-        <img src="@sky/rafaelDesign/static/mall/homePage/u82.png"/>
+        <img src="@/@energy/rafaelDesign/static/mall/homePage/u82.png"/>
     </div>
 </template>
 

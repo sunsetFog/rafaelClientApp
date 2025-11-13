@@ -1,14 +1,14 @@
 <template>
     <section id="memberCenter">
         <headDesign title="会员中心">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/memberCenter/u2518.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2518.png"/>
         </headDesign>
         <div class="mercury">
-            <img class="u2660" src="@sky/rafaelDesign/static/mall/memberCenter/u2660.png"/>
+            <img class="u2660" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2660.png"/>
             <specialServices></specialServices>
             <button class="cosplay">
                 <span>成长值1000</span>
-                <img src="@sky/rafaelDesign/static/mall/memberCenter/u2685.png"/>
+                <img src="@/@energy/rafaelDesign/static/mall/memberCenter/u2685.png"/>
             </button>
         </div>
         <div class="saturn">

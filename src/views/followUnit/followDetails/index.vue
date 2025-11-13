@@ -1,25 +1,25 @@
 <template>
     <section id="followDetails">
         <headDesign title="Victoria's Secret">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/follow/u1033.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/follow/u1033.png"/>
         </headDesign>
         <div class="mercury">
-            <img src="@sky/rafaelDesign/static/mall/homePage/u40.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/homePage/u40.png"/>
             <button>制造商直供</button>
         </div>
         <div class="cartoon" style="margin: 0;">
             <div class="shang-pin">
-                <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
             </div>
             <span class="box1">Victoria's Secret</span>
             <span class="box2">国际著名内衣品牌</span>
             <span class="box3">美国</span>
             <span class="box4">1000</span>
-            <img class="u2279" src="@sky/rafaelDesign/static/mall/follow/u2279.png"/>
-            <img class="u193" src="@sky/rafaelDesign/static/mall/follow/u193.png"/>
+            <img class="u2279" src="@/@energy/rafaelDesign/static/mall/follow/u2279.png"/>
+            <img class="u193" src="@/@energy/rafaelDesign/static/mall/follow/u193.png"/>
             <button @click="rainWay()">
-                <img v-if="!rainbow.active" src="@sky/rafaelDesign/static/mall/follow/u2283.png"/>
-                <img v-if="rainbow.active" src="@sky/rafaelDesign/static/mall/follow/u2284.png"/>
+                <img v-if="!rainbow.active" src="@/@energy/rafaelDesign/static/mall/follow/u2283.png"/>
+                <img v-if="rainbow.active" src="@/@energy/rafaelDesign/static/mall/follow/u2284.png"/>
                 <span v-if="!rainbow.active">关注</span>
                 <span v-if="rainbow.active">已关注</span>
             </button>
@@ -32,8 +32,8 @@
             &nbsp;&nbsp;&nbsp;&nbsp;维多利亚的秘密的产品种类包括了女式内衣、睡衣、短裤、香水化妆品以及相关书籍等。自1995年起，维多利亚的秘密开始举行年度时尚秀，也借由性感的服饰、华丽的舞台效果而捧红了因具备姣好容貌和傲人身材的维密天使们。
         </div>
         <div class="saturn">
-            <img v-if="!fabulous" @click="honey" src="@sky/rafaelDesign/static/mall/follow/u2288.png"/>
-            <img v-else @click="honey" src="@sky/rafaelDesign/static/mall/follow/u2306.png"/>
+            <img v-if="!fabulous" @click="honey" src="@/@energy/rafaelDesign/static/mall/follow/u2288.png"/>
+            <img v-else @click="honey" src="@/@energy/rafaelDesign/static/mall/follow/u2306.png"/>
         </div>
 
         <div class="comic">

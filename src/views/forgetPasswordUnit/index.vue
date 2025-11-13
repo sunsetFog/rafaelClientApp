@@ -2,19 +2,19 @@
     <section id="forgetPasswordUnit">
         <headDesign title="忘记密码"></headDesign>
         <div class="cartoon-apt">
-            <img class="u2808" src="@sky/rafaelDesign/static/mall/login/u2808.png"/>
+            <img class="u2808" src="@/@energy/rafaelDesign/static/mall/login/u2808.png"/>
         </div>
         <div class="mars-apt">
-            <img class="u2839" src="@sky/rafaelDesign/static/mall/login/u2839.png"/>
+            <img class="u2839" src="@/@energy/rafaelDesign/static/mall/login/u2839.png"/>
             <input class="jupiter-apt" type="text" v-model="withForm.username" placeholder="输入手机号码"/>
         </div>
         <div class="saturn-apt">
-            <img class="u2882" src="@sky/rafaelDesign/static/mall/register/u2882.png"/>
+            <img class="u2882" src="@/@energy/rafaelDesign/static/mall/register/u2882.png"/>
             <input class="venus-apt" type="text" v-model="withForm.password" placeholder="输入短信验证码"/>
             <span class="yanzhengma">发送验证码</span>
         </div>
         <div class="saturn-apt">
-            <img class="u2882" src="@sky/rafaelDesign/static/mall/login/u2843.png"/>
+            <img class="u2882" src="@/@energy/rafaelDesign/static/mall/login/u2843.png"/>
             <input class="venus-apt" type="text" v-model="withForm.password" placeholder="输入新的登录密码"/>
             <van-switch class="mercury-apt" v-model="checked" size="20" />
         </div>

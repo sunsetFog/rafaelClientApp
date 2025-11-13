@@ -1,8 +1,8 @@
 <template>
     <section id="productDetails">
         <headDesign title="商品信息">
-            <img class="u1032" src="@sky/rafaelDesign/static/mall/evaluate/u1032.png"/>
-            <img class="u1033" src="@sky/rafaelDesign/static/mall/evaluate/u1033.png"/>
+            <img class="u1032" src="@/@energy/rafaelDesign/static/mall/evaluate/u1032.png"/>
+            <img class="u1033" src="@/@energy/rafaelDesign/static/mall/evaluate/u1033.png"/>
         </headDesign>
         <van-tabs v-model:active="tab_active">
             <van-tab title="商品介绍">
@@ -23,13 +23,13 @@
                 <ul>
                     <li @click="appleWay(0)">
                         <div>
-                            <img src="@sky/rafaelDesign/static/mall/productDetails/u1535.png"/>
+                            <img src="@/@energy/rafaelDesign/static/mall/productDetails/u1535.png"/>
                         </div>
                         <span>客服</span>
                     </li>
                     <li @click="appleWay(1)">
                         <div>
-                            <img src="@sky/rafaelDesign/static/mall/productDetails/u1537.png"/>
+                            <img src="@/@energy/rafaelDesign/static/mall/productDetails/u1537.png"/>
                         </div>
                         <span>购物车</span>
                     </li>

@@ -1,6 +1,6 @@
 <template>
     <section id="headDesign">
-        <img @click="backWay" class="u333" src="@sky/rafaelDesign/static/mall/register/u333.png"/>
+        <img @click="backWay" class="u333" src="@/@energy/rafaelDesign/static/mall/register/u333.png"/>
         <span>{{title}}</span>
         <slot></slot>
     </section>

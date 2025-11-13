@@ -3,7 +3,7 @@
         <headDesign title="版本说明"></headDesign>
         <div class="atmosphere">
             <div class="cartoon-apt">
-                <img src="@sky/rafaelDesign/static/mall/systemSettings/u2823.png"/>
+                <img src="@/@energy/rafaelDesign/static/mall/systemSettings/u2823.png"/>
             </div>
             <p>版本不息 优化不止</p>
         </div>

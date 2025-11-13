@@ -18,7 +18,7 @@
         <div class="cartoon">
             <label>所在区域:</label>
             <span>请选择区域</span>
-            <img class="u2637" src="@sky/rafaelDesign/static/mall/order/u2637.png"/>
+            <img class="u2637" src="@/@energy/rafaelDesign/static/mall/order/u2637.png"/>
         </div>
         <div class="cartoon">
             <label>详细地址:</label>

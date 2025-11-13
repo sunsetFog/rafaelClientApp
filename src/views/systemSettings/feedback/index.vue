@@ -3,7 +3,7 @@
         <headDesign title="意见反馈"></headDesign>
         <div class="atmosphere">
             请选择反馈类型
-            <img src="@sky/rafaelDesign/static/mall/afterSales/u2724.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/afterSales/u2724.png"/>
         </div>
         <van-field
             class="saturn"

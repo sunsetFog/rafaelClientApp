@@ -27,7 +27,7 @@ export default {
     created() {
         for (let index = 0; index < this.comic_list.length; index++) {
             let item = this.comic_list[index];
-            item.icon = require('@sky/rafaelDesign/static/mall/memberCenter/' + item.icon + '.png');
+            item.icon = require('@/@energy/rafaelDesign/static/mall/memberCenter/' + item.icon + '.png');
         }
     }
 }

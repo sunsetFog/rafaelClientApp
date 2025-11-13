@@ -4,7 +4,7 @@
             <ul>
                 <li v-for="(item,index) in venus_list">
                     <div class="shang-pin">
-                        <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                        <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                     </div>
                     <span class="summer">银色星芒刺绣网纱底裤</span>
                     <span class="honey">肤色/M</span>

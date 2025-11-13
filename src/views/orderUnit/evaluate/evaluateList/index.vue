@@ -1,7 +1,7 @@
 <template>
     <section id="evaluateList">
         <headDesign title="我的评价">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/memberCenter/u2518.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2518.png"/>
         </headDesign>
         <van-tabs v-model:active="tab_active">
             <van-tab title="待评价">
@@ -10,13 +10,13 @@
             <van-tab title="已评价">
                 <div class="atmosphere" @click="detailWay">
                     <div class="cartoon">
-                        <img class="u1037" src="@sky/rafaelDesign/static/mall/evaluate/u1037.png"/>
+                        <img class="u1037" src="@/@energy/rafaelDesign/static/mall/evaluate/u1037.png"/>
                         <span>Windir</span>
                         <span>学生/深圳</span>
                     </div>
                     <div class="mars">
                         <div v-for="item in 3">
-                            <img src="@sky/rafaelDesign/static/mall/homePage/u40.png"/>
+                            <img src="@/@energy/rafaelDesign/static/mall/homePage/u40.png"/>
                         </div>
                         <button>9P</button>
                     </div>
@@ -26,7 +26,7 @@
                     <div class="undercurrent">
                         <div class="rainbow">
                             <div>
-                                <img src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                                <img src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                             </div>
                             <span>银色星芒刺绣网纱底裤</span>
                             <span>肤色/M</span>
@@ -37,8 +37,8 @@
                         <span>一周前</span>
                         <span>1000</span>
                         <span>100</span>
-                        <img class="u1678" src="@sky/rafaelDesign/static/mall/evaluate/u1678.png"/>
-                        <img class="u1676" src="@sky/rafaelDesign/static/mall/evaluate/u1676.png"/>
+                        <img class="u1678" src="@/@energy/rafaelDesign/static/mall/evaluate/u1678.png"/>
+                        <img class="u1676" src="@/@energy/rafaelDesign/static/mall/evaluate/u1676.png"/>
                     </div>
                 </div>
             </van-tab>

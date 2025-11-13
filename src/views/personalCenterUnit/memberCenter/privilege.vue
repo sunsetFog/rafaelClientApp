@@ -6,7 +6,7 @@
                     <img :src="item.icon"/>
                 </div>
                 <span>{{item.title}}</span>
-                <img v-if="item.active" class="u2692" src="@sky/rafaelDesign/static/mall/memberCenter/u2692.png"/>
+                <img v-if="item.active" class="u2692" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2692.png"/>
             </li>
         </ul>
     </div>
@@ -30,7 +30,7 @@ export default {
     created() {
         for (let index = 0; index < this.comic_list.length; index++) {
             let item = this.comic_list[index];
-            item.icon = require('@sky/rafaelDesign/static/mall/memberCenter/' + item.icon + '.png');
+            item.icon = require('@/@energy/rafaelDesign/static/mall/memberCenter/' + item.icon + '.png');
         }
     }
 }

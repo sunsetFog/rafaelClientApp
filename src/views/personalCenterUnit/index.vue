@@ -2,7 +2,7 @@
     <section id="personalCenterUnit">
         <headDesign title="个人中心"></headDesign>
         <div class="cartoon">
-            <img src="@sky/rafaelDesign/static/mall/personalCenter/u2943.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/personalCenter/u2943.png"/>
             <span>Windir</span>
         </div>
 
@@ -12,7 +12,7 @@
             @click="appleWay(item,index)">
             <span class="venus">{{item.title}}</span>
             <span class="saturn">{{item.note}}</span>
-            <img src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
         </div>
     </section>
 </template>

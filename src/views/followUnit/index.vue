@@ -3,17 +3,17 @@
         <headDesign title="Ta关注的品牌"></headDesign>
         <div class="cartoon" v-for="(item, index) in jupiter_list" @click="pathWay()">
             <div class="shang-pin">
-                <img class="u88" src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                <img class="u88" src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
             </div>
             <span class="box1">Victoria's Secret</span>
             <span class="box2">国际著名内衣品牌</span>
             <span class="box3">美国</span>
             <span class="box4">1000</span>
-            <img class="u2279" src="@sky/rafaelDesign/static/mall/follow/u2279.png"/>
-            <img class="u193" src="@sky/rafaelDesign/static/mall/follow/u193.png"/>
+            <img class="u2279" src="@/@energy/rafaelDesign/static/mall/follow/u2279.png"/>
+            <img class="u193" src="@/@energy/rafaelDesign/static/mall/follow/u193.png"/>
             <button @click="rainWay(index)">
-                <img v-if="!item.active" src="@sky/rafaelDesign/static/mall/follow/u2283.png"/>
-                <img v-if="item.active" src="@sky/rafaelDesign/static/mall/follow/u2284.png"/>
+                <img v-if="!item.active" src="@/@energy/rafaelDesign/static/mall/follow/u2283.png"/>
+                <img v-if="item.active" src="@/@energy/rafaelDesign/static/mall/follow/u2284.png"/>
                 <span v-if="!item.active">关注</span>
                 <span v-if="item.active">已关注</span>
             </button>

@@ -1,8 +1,8 @@
 <template>
     <section id="customer">
         <div class="yong-hu" @click="personalCenter">
-            <img class="u208" src="@sky/rafaelDesign/static/mall/customer/u208.png"/>
-            <img class="u211" src="@sky/rafaelDesign/static/mall/customer/u211.png"/>
+            <img class="u208" src="@/@energy/rafaelDesign/static/mall/customer/u208.png"/>
+            <img class="u211" src="@/@energy/rafaelDesign/static/mall/customer/u211.png"/>
             <span>customer</span>
             <button>黄金会员</button>
         </div>
@@ -14,7 +14,7 @@
             <img :src="item.icon"/>
             <span class="venus">{{item.title}}</span>
             <span class="saturn">{{item.note}}</span>
-            <img src="@sky/rafaelDesign/static/mall/customer/u286.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/customer/u286.png"/>
         </div>
     </section>
 </template>
@@ -42,7 +42,7 @@ export default {
     created() {
         for (let index = 0; index < this.mercury_list.length; index++) {
             let item = this.mercury_list[index];
-            item.icon = require('@sky/rafaelDesign/static/mall/customer/' + item.icon + '.png');
+            item.icon = require('@/@energy/rafaelDesign/static/mall/customer/' + item.icon + '.png');
         }
     },
     methods: {

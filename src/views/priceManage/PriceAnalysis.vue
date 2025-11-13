@@ -72,7 +72,7 @@ import { Icon, Dialog } from 'vant';
 import headerBar from '@/components/headerBar.vue'
 import Loading from '@/components/common/Loading'
 import drawing from './echart.js'
-import CloudEchart from '@sky/rafaelDesign/web/components/echarts/cloudEchart'
+import CloudEchart from '@/@energy/rafaelDesign/web/components/echarts/cloudEchart'
 export default {
   name: 'PriceAnalysis',
   components: {

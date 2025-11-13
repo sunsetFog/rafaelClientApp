@@ -4,13 +4,13 @@
         <div class="atmosphere">
             <span class="cartoon">大梨&nbsp;&nbsp;&nbsp;&nbsp;180****1849</span>
             <span class="mars">广东省深圳市南山区科兴科学园</span>
-            <img class="u2279" src="@sky/rafaelDesign/static/mall/follow/u2279.png"/>
+            <img class="u2279" src="@/@energy/rafaelDesign/static/mall/follow/u2279.png"/>
             <button v-if="choose_active">默认</button>
         </div>
         <div class="jupiter">
             <van-checkbox v-model="choose_active" class="comic" @click="chooseWay">设为默认</van-checkbox>
-            <img class="u2603" src="@sky/rafaelDesign/static/mall/order/u2603.png"/>
-            <img class="u2607" src="@sky/rafaelDesign/static/mall/order/u2607.png"/>
+            <img class="u2603" src="@/@energy/rafaelDesign/static/mall/order/u2603.png"/>
+            <img class="u2607" src="@/@energy/rafaelDesign/static/mall/order/u2607.png"/>
             <button @click="addWay('编辑')">编辑</button>
             <button>删除</button>
         </div>

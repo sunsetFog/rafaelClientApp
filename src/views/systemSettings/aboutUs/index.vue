@@ -2,7 +2,7 @@
     <section id="aboutUs">
         <headDesign title="关于我们"></headDesign>
         <div class="cartoon-apt">
-            <img src="@sky/rafaelDesign/static/mall/login/u2808.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/login/u2808.png"/>
         </div>
         <p class="jupiter">夕阳商城</p>
         <p class="saturn">客服热线：400-0000-000</p>

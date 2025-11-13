@@ -4,17 +4,17 @@
         <div class="atmosphere">
             <span class="cartoon">大梨&nbsp;&nbsp;&nbsp;&nbsp;180****1849</span>
             <span class="mars">广东省深圳市南山区科兴科学园</span>
-            <img class="u2279" src="@sky/rafaelDesign/static/mall/follow/u2279.png"/>
-            <img class="u196" src="@sky/rafaelDesign/static/mall/special/u196.png" @click="addressWay"/>
+            <img class="u2279" src="@/@energy/rafaelDesign/static/mall/follow/u2279.png"/>
+            <img class="u196" src="@/@energy/rafaelDesign/static/mall/special/u196.png" @click="addressWay"/>
             <button>默认</button>
-            <img class="u448" src="@sky/rafaelDesign/static/mall/order/u448.png"/>
+            <img class="u448" src="@/@energy/rafaelDesign/static/mall/order/u448.png"/>
         </div>
         <div class="jupiter">商品信息</div>
         <popularityHot></popularityHot>
         <div class="saturn">
             优惠券
             <span>5张可用</span>
-            <img class="u196" src="@sky/rafaelDesign/static/mall/special/u196.png"/>
+            <img class="u196" src="@/@energy/rafaelDesign/static/mall/special/u196.png"/>
         </div>
         <div class="venus">
             积分抵扣
@@ -50,7 +50,7 @@
         <div class="purpose">
             发票信息
             <span>不开发票</span>
-            <img class="u196" src="@sky/rafaelDesign/static/mall/special/u196.png"/>
+            <img class="u196" src="@/@energy/rafaelDesign/static/mall/special/u196.png"/>
         </div>
 
         <div class="fabulous">
@@ -215,7 +215,7 @@ export default {
             text-align: center;
             line-height: 26px;
             color: @color_hong;
-            background: url("~@sky/rafaelDesign/static/mall/order/u500.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/order/u500.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             position: absolute;

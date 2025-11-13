@@ -1,11 +1,11 @@
 <template>
     <section id="essentialsUnit">
         <header class="headDesign">
-            <img class="u13" src="@sky/rafaelDesign/static/mall/essentials/u13.png" @click="magicWay" />
-            <img class="u17" src="@sky/rafaelDesign/static/mall/essentials/u17.png" @click="magicWay" />
+            <img class="u13" src="@/@energy/rafaelDesign/static/mall/essentials/u13.png" @click="magicWay" />
+            <img class="u17" src="@/@energy/rafaelDesign/static/mall/essentials/u17.png" @click="magicWay" />
             <span>夕阳商城</span>
-            <img class="u14" src="@sky/rafaelDesign/static/mall/essentials/u14.png" @click="searchWay" />
-            <img class="u15" src="@sky/rafaelDesign/static/mall/essentials/u15.png" @click="comicWay" />
+            <img class="u14" src="@/@energy/rafaelDesign/static/mall/essentials/u14.png" @click="searchWay" />
+            <img class="u15" src="@/@energy/rafaelDesign/static/mall/essentials/u15.png" @click="comicWay" />
             <div @click="comicWay">66</div>
         </header>
 
@@ -55,8 +55,8 @@ export default {
     created() {
         for (let index = 0; index < this.with_list.length; index++) {
             let item = this.with_list[index];
-            item.url = require('@sky/rafaelDesign/static/mall/essentials/' + item.icon + '_selected.png');
-            item.icon = require('@sky/rafaelDesign/static/mall/essentials/' + item.icon + '.png');
+            item.url = require('@/@energy/rafaelDesign/static/mall/essentials/' + item.icon + '_selected.png');
+            item.icon = require('@/@energy/rafaelDesign/static/mall/essentials/' + item.icon + '.png');
             item.active = false;
             if (this.$route.path == item.path) {
                 item.active = true;
@@ -157,7 +157,7 @@ export default {
             line-height: 18px;
             color: #fff;
             font-size: 12px;
-            background: url("~@sky/rafaelDesign/static/mall/essentials/u16.png");
+            background: url("~@/@energy/rafaelDesign/static/mall/essentials/u16.png");
             background-size: 100% 100%;
             background-repeat: no-repeat;
             position: absolute;

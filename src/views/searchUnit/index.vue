@@ -2,7 +2,7 @@
     <section id="searchUnit">
         <div class="search-box">
             <div class="magic">
-                <img @click="backWay" class="u333" src="@sky/rafaelDesign/static/mall/register/u333.png"/>
+                <img @click="backWay" class="u333" src="@/@energy/rafaelDesign/static/mall/register/u333.png"/>
             </div>
             <van-search class="comic" v-model="search_value" show-action placeholder="输入商品关键词" @search="onSearch" @cancel="onCancel"/>
         </div>
@@ -20,9 +20,9 @@
         <div class="mercury">
             <ul>
                 <li v-for="(item,index) in record_list" @click="hotWay(item)">
-                    <img class="u1460" src="@sky/rafaelDesign/static/mall/search/u1460.png"/>
+                    <img class="u1460" src="@/@energy/rafaelDesign/static/mall/search/u1460.png"/>
                     <span>{{item.label}}</span>
-                    <img class="u1447" @click.stop="removeRecord(index)" src="@sky/rafaelDesign/static/mall/search/u1447.png"/>
+                    <img class="u1447" @click.stop="removeRecord(index)" src="@/@energy/rafaelDesign/static/mall/search/u1447.png"/>
                 </li>
             </ul>
         </div>

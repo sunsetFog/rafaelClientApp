@@ -3,7 +3,7 @@
         <van-swipe indicator-color="white" style="width: 100%;height: 100%;">
             <van-swipe-item>
                 <div class="mei-you">
-                    <img src="@sky/rafaelDesign/static/mall/homePage/u40.png"/>
+                    <img src="@/@energy/rafaelDesign/static/mall/homePage/u40.png"/>
                 </div>
             </van-swipe-item>
             <van-swipe-item>2</van-swipe-item>

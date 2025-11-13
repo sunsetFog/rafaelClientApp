@@ -1,15 +1,15 @@
 <template>
     <section id="loginUnit">
         <div class="cartoon-apt">
-            <img class="u2834" src="@sky/rafaelDesign/static/mall/login/u2834.png"/>
-            <img class="u2808" src="@sky/rafaelDesign/static/mall/login/u2808.png"/>
+            <img class="u2834" src="@/@energy/rafaelDesign/static/mall/login/u2834.png"/>
+            <img class="u2808" src="@/@energy/rafaelDesign/static/mall/login/u2808.png"/>
         </div>
         <div class="mars-apt">
-            <img class="u2839" src="@sky/rafaelDesign/static/mall/login/u2839.png"/>
+            <img class="u2839" src="@/@energy/rafaelDesign/static/mall/login/u2839.png"/>
             <input class="jupiter-apt" type="text" v-model="withForm.username" placeholder="手机号码"/>
         </div>
         <div class="saturn-apt">
-            <img class="u2843" src="@sky/rafaelDesign/static/mall/login/u2843.png"/>
+            <img class="u2843" src="@/@energy/rafaelDesign/static/mall/login/u2843.png"/>
             <input class="venus-apt" type="text" v-model="withForm.password" placeholder="登录密码"/>
             <van-switch class="mercury-apt" v-model="checked" size="20" />
         </div>
@@ -24,11 +24,11 @@
             <hr/>  OR  <hr/>
         </div>
         <button class="summer-apt">
-            <img src="@sky/rafaelDesign/static/mall/login/u2858.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/login/u2858.png"/>
             微信账号登录
         </button>
         <button class="summer-apt">
-            <img src="@sky/rafaelDesign/static/mall/login/u2862.png"/>
+            <img src="@/@energy/rafaelDesign/static/mall/login/u2862.png"/>
             微博账号登录
         </button>
     </section>

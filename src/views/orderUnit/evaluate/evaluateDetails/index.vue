@@ -1,11 +1,11 @@
 <template>
     <section id="evaluateDetails">
         <headDesign title="评价详情">
-            <img class="u1032" src="@sky/rafaelDesign/static/mall/evaluate/u1032.png"/>
-            <img class="u1033" src="@sky/rafaelDesign/static/mall/evaluate/u1033.png"/>
+            <img class="u1032" src="@/@energy/rafaelDesign/static/mall/evaluate/u1032.png"/>
+            <img class="u1033" src="@/@energy/rafaelDesign/static/mall/evaluate/u1033.png"/>
         </headDesign>
         <div class="atmosphere">
-            <img class="u1037" src="@sky/rafaelDesign/static/mall/evaluate/u1037.png"/>
+            <img class="u1037" src="@/@energy/rafaelDesign/static/mall/evaluate/u1037.png"/>
             <span>Windir</span>
             <span>学生/深圳</span>
         </div>
@@ -14,21 +14,21 @@
         </div>
         <div class="mars">
             <div>
-                <img src="@sky/rafaelDesign/static/mall/homePage/u40.png"/>
+                <img src="@/@energy/rafaelDesign/static/mall/homePage/u40.png"/>
             </div>
         </div>
         <div class="mercury">
             <span>一周前</span>
             <span>收藏100</span>
             <span>阅读10000</span>
-            <img class="u193" src="@sky/rafaelDesign/static/mall/evaluate/u193.png"/>
-            <img class="u194" src="@sky/rafaelDesign/static/mall/evaluate/u194.png"/>
+            <img class="u193" src="@/@energy/rafaelDesign/static/mall/evaluate/u193.png"/>
+            <img class="u194" src="@/@energy/rafaelDesign/static/mall/evaluate/u194.png"/>
         </div>
 
         <div class="undercurrent">
             <div class="cosplay">
                 <div>
-                    <img src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                    <img src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                 </div>
                 <span>银色星芒刺绣网纱底裤</span>
                 <span>薄如蝉翼，丝滑如肌肤</span>
@@ -43,12 +43,12 @@
 
         <div class="fabulous">
             <div class="comic">
-                <img src="@sky/rafaelDesign/static/mall/evaluate/u1065.png"/>
+                <img src="@/@energy/rafaelDesign/static/mall/evaluate/u1065.png"/>
                 <span>全部评论&nbsp;100</span>
             </div>
             <div class="magic">
                 <div>
-                    <img src="@sky/rafaelDesign/static/mall/homePage/u88.png"/>
+                    <img src="@/@energy/rafaelDesign/static/mall/homePage/u88.png"/>
                 </div>
                 <p>嗷嗷</p>
                 <p>回复<span>Windir</span>How Are you?</p>

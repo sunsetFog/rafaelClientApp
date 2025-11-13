@@ -3,11 +3,11 @@
         <headDesign title="服务中心"></headDesign>
         <div class="atmosphere">
             <div>
-                <img class="u2707" src="@sky/rafaelDesign/static/mall/serviceCenter/u2707.png"/>
+                <img class="u2707" src="@/@energy/rafaelDesign/static/mall/serviceCenter/u2707.png"/>
                 <p>在线客服</p>
             </div>
             <div>
-                <img class="u2714" src="@sky/rafaelDesign/static/mall/serviceCenter/u2714.png"/>
+                <img class="u2714" src="@/@energy/rafaelDesign/static/mall/serviceCenter/u2714.png"/>
                 <p>客服热线</p>
             </div>
         </div>
@@ -16,9 +16,9 @@
             问题分类
         </div>
         <div :class="{'cartoon': true, 'mercury': index == 0}" v-for="(item,index) in rainbow_list" @click="problemWay(item)">
-            <img class="u2722" src="@sky/rafaelDesign/static/mall/serviceCenter/u2722.png"/>
+            <img class="u2722" src="@/@energy/rafaelDesign/static/mall/serviceCenter/u2722.png"/>
             <label>{{item.title}}</label>
-            <img class="u2637" src="@sky/rafaelDesign/static/mall/order/u2637.png"/>
+            <img class="u2637" src="@/@energy/rafaelDesign/static/mall/order/u2637.png"/>
         </div>
     </section>
 </template>

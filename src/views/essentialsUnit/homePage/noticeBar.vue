@@ -3,7 +3,7 @@
         <van-notice-bar :scrollable="false">
             <template #left-icon>
                 <div class="venus">
-                    <img class="u76" src="@sky/rafaelDesign/static/mall/homePage/u76.png"/>
+                    <img class="u76" src="@/@energy/rafaelDesign/static/mall/homePage/u76.png"/>
                 </div>
             </template>
             <van-swipe

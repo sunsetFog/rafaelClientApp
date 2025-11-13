@@ -1,7 +1,7 @@
 <template>
     <section id="couponUnit">
         <headDesign title="我的优惠券">
-            <img class="summer" src="@sky/rafaelDesign/static/mall/memberCenter/u2518.png"/>
+            <img class="summer" src="@/@energy/rafaelDesign/static/mall/memberCenter/u2518.png"/>
         </headDesign>
         <van-tabs v-model:active="tab_active">
             <van-tab title="未使用">
