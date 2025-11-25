@@ -13,6 +13,7 @@ const screenAndRem = {
             swan_html.setAttribute('data-theme', type);
             state.theme_value = type;
         },
+        // study: rem
         setScreenAndRem: (state) => {
             // const swan_html = document.querySelector('html');
             const swan_html = document.documentElement || document.body;

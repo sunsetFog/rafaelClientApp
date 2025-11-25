@@ -14,6 +14,7 @@ export default {
 
         };
     },
+    // study: rem
     created() {
         this.$store.commit('setScreenAndRem');
         window.addEventListener('resize', this.setScreenAndRem);
